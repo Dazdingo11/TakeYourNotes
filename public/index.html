@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Notes</h1>
+      <p class="muted">Never forget a thought. Capture fast, edit in place.</p>
+    </header>
+    <section class="editor" data-create-panel>
+      <input id="title" placeholder="Note title" />
+      <textarea id="content" placeholder="Write your note..."></textarea>
+      <div class="actions">
+        <button id="saveBtn" type="button">Save</button>
+        <button id="clearBtn" type="button" class="secondary">Clear</button>
+        <span id="status" class="muted"></span>
+      </div>
+    </section>
+    <section>
+      <h2>Your Notes</h2>
+      <ul id="notesList"></ul>
+    </section>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

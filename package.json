@@ -1,0 +1,21 @@
+{
+  "name": "notes-app-express",
+  "version": "1.0.0",
+  "description": "Simple full-stack Notes app using Node, Express, and static frontend.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "render-build": "echo 'Nothing to build'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
